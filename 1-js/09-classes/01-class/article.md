@@ -347,7 +347,7 @@ alert(user.name); // John
 
 ### Making bound methods with class fields
 
-As demonstrated in the chapter <info:bind> functions in JavaScript have a dynamic `this`. It depends on the context of the call.
+As demonstrated in the chapter <info:bind>, functions in JavaScript have a dynamic `this`. It depends on the context of the call.
 
 So if an object method is passed around and called in another context, `this` won't be a reference to its object any more.
 
